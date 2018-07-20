@@ -1,0 +1,93 @@
+@charset "utf-8";
+/*! Sass Test */
+$link_color: blue;
+$text_color: #111;
+$border_color: #BDB76B;
+$input_text_color: #BDB76B;
+$fonts: "Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+
+body {
+	font: $fonts;
+	margin: 0;
+	padding: 0;
+	.auth-bg-wrap{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		background-color: #ffffff;
+		vertical-align: middle;
+		position:relative;
+		>img {
+			display: block;
+			opacity: 0.6;
+			position: absolute;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			margin: auto;
+		}
+	}
+	.form-area-wrap{
+		position: absolute;
+		background-color: white;
+		width: 500px;
+		height: 352px;
+		padding: 8px 12px 8px 8px;;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+
+		.form-area-wrap-img {
+			width: 100%;
+		}
+
+		.form-area {
+			display: table;
+			text-align: center;
+			border: solid 1px $border_color;
+			border-radius: 10px;
+			width: 100%;
+			height: 100%;
+
+			form{
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			.title {
+				margin: 30px 40px 20px 40px;
+				text-align: left;
+				>input[type="password"] {
+					width: 100%;
+					height: 1.8rem;
+					outline: none;
+					border: 1px solid $input_text_color;
+					-webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+					border-radius: 3px;
+					font-size: 16px;
+				}
+			}
+			.auth-btn-wrap {
+				margin: 10px;
+			}
+		}
+	}
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: $border_color;
+	background: white;
+	border: double 4px $border_color;
+	border-radius: 3px;
+	transition: .4s;
+}
+.btn:hover {
+	background: #fffbef;
+}

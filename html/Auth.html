@@ -1,0 +1,53 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/auth.css">
+</head>
+<body>
+	<main>
+		<div id="auth_bg_wrap" class="auth-bg-wrap"><img id="auth_bg" src="./img/Chapel_3.jpg"></div>
+		<div class="form-area-wrap">
+			<div class="form-area">
+				<form>
+					<!--<img src="./img/password-icon.png">-->
+					<div class="title"><span>password </span><input type="password" /></div>
+					<div class="auth-btn-wrap"><button class="btn">送信</button></div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<script>
+		window.onload = function (event) {
+			var imgEle = document.getElementById( "auth_bg" ) ;
+			imgEle.setAttribute("style", "width:100%;");
+			resizeBgImg();
+		};
+
+		window.addEventListener('resize', function (event) {
+			resizeBgImg();
+		});
+
+		function resizeBgImg() {
+			var imgEle = document.getElementById( "auth_bg" ) ;
+			var imgWrapEle = document.getElementById( "auth_bg_wrap" ) ;
+			if ( imgEle.complete ) {
+				var imgWidth = imgEle.width ;
+				var imgHeight = imgEle.height ;
+				var winWidth = window.innerWidth;
+				var winHeight = window.innerHeight;
+
+				if(imgWidth < winWidth) {
+					console.log(imgHeight-winHeight);
+					imgEle.setAttribute("style", "width:100%;");
+				}
+				if(imgHeight < winHeight) {
+					imgEle.setAttribute("style", "height:100%;");
+				}
+				var tranX = (winWidth-imgHeight)/2;
+				var width1 = winWidth - tranX;
+				imgWrapEle.setAttribute("style", "transform: translateX("+tranX+"px); width:"+width1+"px;");
+					console.log(imgWidth-winWidth);
+			}
+		}
+	</script>
+</body>
+</html>

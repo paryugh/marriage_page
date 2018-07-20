@@ -1,0 +1,71 @@
+/*! Sass Test */
+body {
+  font: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  margin: 0;
+  padding: 0; }
+body .auth-bg-wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  vertical-align: middle;
+  position: relative; }
+body .auth-bg-wrap > img {
+  display: block;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+body .form-area-wrap {
+  position: absolute;
+  background-color: white;
+  width: 500px;
+  height: 352px;
+  padding: 8px 12px 8px 8px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; }
+body .form-area-wrap .form-area-wrap-img {
+  width: 100%; }
+body .form-area-wrap .form-area {
+  display: table;
+  text-align: center;
+  border: solid 1px #BDB76B;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%; }
+body .form-area-wrap .form-area form {
+  display: table-cell;
+  vertical-align: middle; }
+body .form-area-wrap .form-area .title {
+  margin: 30px 40px 20px 40px;
+  text-align: left; }
+body .form-area-wrap .form-area .title > input[type="password"] {
+  width: 100%;
+  height: 1.8rem;
+  outline: none;
+  border: 1px solid #BDB76B;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 16px; }
+body .form-area-wrap .form-area .auth-btn-wrap {
+  margin: 10px; }
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #BDB76B;
+  background: white;
+  border: double 4px #BDB76B;
+  border-radius: 3px;
+  transition: .4s; }
+
+.btn:hover {
+  background: #fffbef; }

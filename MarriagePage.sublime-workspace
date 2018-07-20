@@ -1,0 +1,314 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "html/sass/auth.scss",
+			"settings":
+			{
+				"buffer_size": 1430,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/Auth.html",
+			"settings":
+			{
+				"buffer_size": 523,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nJapanize\n--------\n\n  Japanese menu for Sublime Text 3  \n    \n  Sublime Text 3の日本語化プラグインです。  \n  [ゆーがいぶろぐ](http://blog.huwy.org/article/292827228.html)さんの日本語化ファイルがベースです。  \n    \n  適用手順  \n  １．C:\\Users\\ユーザー名\\AppData\\Roaming\\Sublime Text 3\\Packages\\Japanizeにインストールされている*.jpファイルを、  \n   　　　C:\\Users\\ユーザー名\\AppData\\Roaming\\Sublime Text 3\\Packages\\Default  \n  　　にコピーします。※Defaultフォルダがない場合は作成してください。  \n  ２．コピーしたファイルをオリジナルのファイル（.jpが付かないファイル）と置き換えます。（念のため、オリジナルのファイルが有る場合は.orgなどを付けて保管しておきましょう。）  \n  ３．C:\\Users\\ユーザー名\\AppData\\Roaming\\Sublime Text 3\\Packages\\Japanize\\Main.sublime-menu（.jpが付かない方）を、  \n   　　　C:\\Users\\ユーザー名\\AppData\\Roaming\\Sublime Text 3\\Packages\\User  \n  　　にコピーします。すると、他のプラグインで上書きされてしまっているトップメニューも日本語化されます。  \n  以上です。\n",
+			"settings":
+			{
+				"buffer_size": 766,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/user/Desktop/marriage_page",
+		"/C/Users/user/Desktop/marriage_page/html",
+		"/C/Users/user/Desktop/marriage_page/html/css",
+		"/C/Users/user/Desktop/marriage_page/html/sass"
+	],
+	"file_history":
+	[
+		"/C/Users/user/Desktop/marriage_page/html/Auth.html",
+		"/C/Users/user/Desktop/marriage_page/html/css/auth.css",
+		"/C/Users/user/Desktop/marriage_page/html/config.rb",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Compass/Compass.sublime-build",
+		"/C/Users/user/Desktop/marriage_page/server/Vagrantfile",
+		"/C/xampp/htdocs/phpinfo.php",
+		"/C/Users/user/Downloads/CodeIgniter-3.1.9/CodeIgniter-3.1.9/application/config/config.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/php-7.2.6/php.ini",
+		"/C/xampp/htdocs/index.php",
+		"/C/apache/server-root/phpinfo.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Root",
+			"root"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "html/sass/auth.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								484,
+								484
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/Auth.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								766,
+								766
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 271.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Compass/Compass.sublime-build",
+	"project": "MarriagePage.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
