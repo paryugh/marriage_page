@@ -1,10 +1,10 @@
 {
   "name": "html",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "compass": "^0.1.1",
+    "hiraku": "^2.1.4",
     "jquery": "^3.3.1",
     "ruby": "^0.6.1"
   },
@@ -14,5 +14,6 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
