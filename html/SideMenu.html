@@ -23,28 +23,13 @@
 			<li><a href="#">Albam</a><div>写真</div></li>
 		</ul>
 	</nav>
-	<div class="col-md-3 col-xs-0" style="display:inline-block"></div>
-	<main class="col-md-8 col-sm-12">
-		<div><img src="./img/photo.png" class="photo"></div>
-		<div class="information">
-			<ruby>
-				<rb class="name">橋岡 良</rb>
-				<rt>はしおか りょう</rt>
-			</ruby>
-			<h3>自己紹介</h3>
-			<p>この度は、、、</p>
-			<h3>趣味</h3>
-			<p>パソコン・音楽鑑賞</p>
-			<h3>好き</h3>
-			<p>好きな食べ物：ラーメン<br>
-				好きなアーティスト：Van Halen</p>
-			<h3>嫌い</h3>
-			<p>プリン</p>
-		</div>
-	</main>
+	<main class="col-md-8 col-sm-12"><div>hoge</div></main>
 	<script src='./js/jquery.min.js'></script>
 	<script src='./js/hiraku.js'></script>
 	<script type="text/javascript">
+	$('#offcanvas-btn-left').click(function() {
+		console.log('クリックされました！');
+	});
 	$(".js-offcanvas").hiraku({
 		btn: ".js-offcanvas-btn",
 		fixedHeader: ".js-fixed-header",
