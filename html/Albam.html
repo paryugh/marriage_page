@@ -1,9 +1,9 @@
-<html>
+<html lang="jp">
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./css/hiraku/hiraku.css">
-	<link rel="stylesheet" type="text/css" href="./css/introduction.css">
+	<link rel="stylesheet" type="text/css" href="./css/albam.css">
 </head>
 <body>
 	<header><!-- TODO:スマホの時だけ表示する。 -->
@@ -15,37 +15,28 @@
 	<nav class="col-md-3 col-xs-0">
 		<ul class="my-menu js-offcanvas">
 			<li><a href="#">Home</a></li>
-			<li><span class="mypage">About Ryo</span><div>新郎の紹介</div></li>
+			<li><a href="#">About Ryo</a><div>新郎の紹介</div></li>
 			<li><a href="#">About Atsuha</a><div>新婦の紹介</div></li>
 			<li><a href="#">Our Story</a><div>２人の生い立ち</div></li>
 			<li><a href="#">Where</a><div>会場</div></li>
 			<li><a href="#">Reception</a><div>席次表</div></li>
 			<li><a href="#">Meal menu</a><div>食事メニュー</div></li>
-			<li><a href="#">Albam</a><div>写真</div></li>
+			<li><span class="mypage">Albam</span><div>写真</div></li>
 		</ul>
 	</nav>
-	<div class="col-md-3 col-xs-0" style="display:inline-block"></div>
 	<main class="col-md-8 col-sm-12">
-		<div><img src="./img/photo.png" class="photo"></div>
-		<div class="information">
-			<ruby>
-				<rb class="name">橋岡 良</rb>
-				<rt>はしおか りょう</rt>
-			</ruby>
-			<h3>自己紹介</h3>
-			<p>この度は、、、</p>
-			<h3>趣味</h3>
-			<p>パソコン・音楽鑑賞</p>
-			<h3>好き</h3>
-			<p>好きな食べ物：ラーメン<br>
-				好きなアーティスト：Van Halen</p>
-			<h3>嫌い</h3>
-			<p>プリン</p>
+		<div>
+			<div><input type="file" /><button>Upload</button></div>
+			<span>当日の写真等、ご自由にアップロードください。</span>
 		</div>
+		<div class="albam"><!-- floatでやる。写真は --></div>
 	</main>
 	<script src='./js/jquery.min.js'></script>
 	<script src='./js/hiraku.js'></script>
 	<script type="text/javascript">
+	$('#offcanvas-btn-left').click(function() {
+		console.log('クリックされました！');
+	});
 	$(".js-offcanvas").hiraku({
 		btn: ".js-offcanvas-btn",
 		fixedHeader: ".js-fixed-header",
