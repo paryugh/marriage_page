@@ -24,9 +24,13 @@
 			<li><span class="mypage">Albam</span><div>写真</div></li>
 		</ul>
 	</nav>
+	<div class="col-md-3 col-xs-0" style="display:inline-block"></div>
 	<main class="col-md-8 col-sm-12">
-		<div>
-			<div><input type="file" /><button>Upload</button></div>
+		<div class="file-upload">
+			<div>
+				<input type="file" id="uploadfile" accept="image/*" /><!-- 複数選択できるようにする。 -->
+				<span><button class="upload-btn">Upload</button></span>
+			</div>
 			<span>当日の写真等、ご自由にアップロードください。</span>
 		</div>
 		<div class="albam"><!-- floatでやる。写真は --></div>
