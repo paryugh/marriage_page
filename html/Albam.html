@@ -27,8 +27,14 @@
 	<div class="col-md-3 col-xs-0" style="display:inline-block"></div>
 	<main class="col-md-8 col-sm-12">
 		<div class="file-upload">
-			<div>
-				<input type="file" id="uploadfile" accept="image/*" /><!-- 複数選択できるようにする。 -->
+			<div id="file_selector_wrap">
+				<label for="file_selector">
+					＋写真を選択
+					<input type="file" id="file_selector" multiple="multiple" accept="image/*" style="display: none;" ><!-- 複数選択できるようにする。 -->
+				</label>
+			</div>
+			<div id="file_uploador_wrap" style="display: none;">
+				<span id="file_name">ファイルが選択できませんでした。ページを更新してください。</span>
 				<span><button class="upload-btn">Upload</button></span>
 			</div>
 			<span>当日の写真等、ご自由にアップロードください。</span>
@@ -37,17 +43,7 @@
 	</main>
 	<script src='./js/jquery.min.js'></script>
 	<script src='./js/hiraku.js'></script>
-	<script type="text/javascript">
-	$('#offcanvas-btn-left').click(function() {
-		console.log('クリックされました！');
-	});
-	$(".js-offcanvas").hiraku({
-		btn: ".js-offcanvas-btn",
-		fixedHeader: ".js-fixed-header",
-		direction: "left",
-		breakpoint: 767
-	});
-
-	</script>
+	<script src='./js/common.js'></script>
+	<script src='./js/albam.js'></script>
 </body>
 </html>
